@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú principal | TA6</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Aplicación de ejercicios</h1>
+        <p class="subtitulo">Selecciona el ejercicio que deseas realizar.</p>
+        <div class="botones">
+            <a class="boton" href="{{ url_for('ejercicio1') }}">Ejercicio 1: Notas y asistencia</a>
+            <a class="boton secundario" href="{{ url_for('ejercicio2') }}">Ejercicio 2: Comparar nombres</a>
+        </div>
+    </main>
+</body>
+</html>
