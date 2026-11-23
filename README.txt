@@ -42,6 +42,6 @@ GITHUB
 Desde la terminal, dentro de esta carpeta:
 git init
 git add .
-git commit -m "Entrega TA6 Flask"
+git commit -m "Entrega Belen Aravena_EVA3"
 Crea un repositorio nuevo en GitHub y sigue las instrucciones que GitHub
 muestre para conectar el repositorio local y subirlo.
